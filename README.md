@@ -1,7 +1,13 @@
-- 👋 Hi, I’m @ki7dk
+## Denis Kieft
 
+I build [tissue.systems](https://tissue.systems) — deploy a JavaScript, Rust or WebAssembly
+function and it runs on a live URL, with a SQL database, object storage and a cron scheduler
+attached. No build step, no container, no cold start you have to think about.
 
-<!---
-ki7dk/ki7dk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Before this: edge networking, email, compilers.
+
+- Platform: [tissue.systems](https://tissue.systems) · [docs](https://docs.tissue.systems)
+- [caddy-rqlite-storage](https://github.com/tissue-systems/caddy-rqlite-storage) — Caddy
+  CertMagic storage backed by rqlite, so every node in a cluster shares one certificate store
+- [tissue-examples](https://github.com/tissue-systems/tissue-examples) — example Cells
+- denis@tissue.systems
