@@ -1,13 +1,24 @@
 ## Denis Kieft
 
-I build [tissue.systems](https://tissue.systems) — deploy a JavaScript, Rust or WebAssembly
-function and it runs on a live URL, with a SQL database, object storage and a cron scheduler
-attached. No build step, no container, no cold start you have to think about.
+I run [Tissue Systems](https://github.com/tissue-systems) on my own, and I write the code for both
+of its products.
 
-Before this: edge networking, email, compilers.
+[Tissue Cloud](https://tissue.systems) runs a JavaScript or WebAssembly function on a live URL,
+with a SQL database, object storage and cron attached.
+[Tissue Mast](https://tissue.systems/mast/) is uptime monitoring that rings your phone until you
+answer. Our own servers page me through it.
 
-- Platform: [tissue.systems](https://tissue.systems) · [docs](https://docs.tissue.systems)
-- [caddy-rqlite-storage](https://github.com/tissue-systems/caddy-rqlite-storage) — Caddy
-  CertMagic storage backed by rqlite, so every node in a cluster shares one certificate store
-- [tissue-examples](https://github.com/tissue-systems/tissue-examples) — example Cells
-- denis@tissue.systems
+Before this I spent five years at Cloudflare on egress addressing, SMTP and DLP, built
+Barracuda's email security gateway as a founding engineer, and wrote compilers and analysis tools
+before that.
+
+Open source I wrote:
+
+- [walship](https://github.com/tissue-systems/walship): ships libSQL WAL frames to a warm replica on another machine
+- [caddy-rqlite-storage](https://github.com/tissue-systems/caddy-rqlite-storage): one shared certificate store for a fleet of Caddy servers
+- [mast-clients](https://github.com/tissue-systems/mast-clients) and [hass-mast](https://github.com/tissue-systems/hass-mast): send a Mast page from code or from Home Assistant and wait for the answer
+- [truenas-ups](https://github.com/ki7dk/truenas-ups): a 12V battery as a UPS for TrueNAS
+
+KI7DK is my callsign, and Mast can ring you for [HamAlert spots](https://tissue.systems/mast/hamradio).
+
+denis@tissue.systems
