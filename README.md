@@ -16,6 +16,8 @@ Open source I wrote:
 
 - [walship](https://github.com/tissue-systems/walship): ships libSQL WAL frames to a warm replica on another machine
 - [caddy-rqlite-storage](https://github.com/tissue-systems/caddy-rqlite-storage): one shared certificate store for a fleet of Caddy servers
+- [ssrf-guard](https://github.com/tissue-systems/ssrf-guard): fetch a URL a stranger gave you without letting it reach your private network
+- [hoptrace](https://github.com/tissue-systems/hoptrace): an mtr-style path trace that runs without root
 - [mast-clients](https://github.com/tissue-systems/mast-clients) and [hass-mast](https://github.com/tissue-systems/hass-mast): send a Mast page from code or from Home Assistant and wait for the answer
 - [truenas-ups](https://github.com/ki7dk/truenas-ups): a 12V battery as a UPS for TrueNAS
 
